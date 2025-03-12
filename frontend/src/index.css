@@ -1,0 +1,292 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f5f5f7;
+  color: #333;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+.error-message {
+  color: #ff3b30;
+  margin-top: 1rem;
+}
+
+.home-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* 侧边栏 */
+.sidebar {
+  width: 200px;
+  background-color: #c0c0c0; /* 复古灰色背景 */
+  border-right: 2px solid #000; /* 黑色边框 */
+  padding: 1rem;
+  height: 94vh;
+}
+
+.sidebar h2 {
+  font-size: 16px;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #000080; /* 蓝色按钮 */
+  color: #fff;
+  border: 1px solid #000; /* 黑色边框 */
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar button:hover {
+  background-color: #0000a0; /* 深蓝色悬停效果 */
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 300px;
+}
+
+
+/* 每日一言 */
+.daily-quote {
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 8px;
+  height: 24px; /* 固定高度，避免文字消失时布局变化 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c0c0c0; /* 背景色与复古风格一致 */
+  border: 1px solid #000; /* 黑色边框 */
+  padding: 4px;
+}
+
+/* 全局样式 */
+body {
+  margin: 0;
+  font-family: 'Tahoma', 'MS Sans Serif', sans-serif;
+  background-color: #008080; /* Windows 2003 经典桌面背景 */
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* 窗口样式 */
+.window {
+  width: 800px;
+  background-color: #c0c0c0; /* 窗口背景色 */
+  border: 2px solid #000;
+  box-shadow: 3px 3px 0 #000;
+  display: flex;
+  flex-direction: column;
+  height: 97vh; /* 窗口高度为视口的 90% */
+}
+
+/* 标题栏 */
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000080; /* 标题栏背景色 */
+  color: #fff;
+  padding: 2px 4px;
+  font-size: 12px;
+}
+
+.title-bar .window-controls button {
+  background-color: #c0c0c0;
+  border: 1px solid #000;
+  color: #000;
+  font-size: 12px;
+  padding: 0 4px;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+.title-bar .window-controls button:hover {
+  background-color: #a0a0a0;
+}
+
+/* 内容区域 */
+.content {
+  flex: 1; /* 占据剩余空间 */
+  padding: 8px;
+  overflow: auto; /* 内容过多时可以滚动 */
+}
+
+/* 每日一言 */
+.daily-quote {
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.quadrant-label {
+  position: absolute;
+  font-size: 12px;
+  color: #000;
+}
+
+.quadrant-label.important {
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.quadrant-label.urgent {
+  top: 50%;
+  right: 4px;
+  transform: translateY(-50%);
+}
+
+/* 任务池 */
+.quadrant-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 8px;
+}
+
+.quadrant {
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 8px;
+}
+
+.quadrant h3 {
+  font-size: 14px;
+  margin: 0 0 8px 0;
+  color: #305e5e;
+}
+
+.task-list {
+  font-size: 12px;
+  color: #000;
+}
+/* 任务卡片 */
+.task-card {
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.task-card h3 {
+  font-size: 14px;
+  margin: 0 0 4px 0;
+  color: #353a3d;
+}
+
+.task-card p {
+  font-size: 12px;
+  margin: 0 0 4px 0;
+}
+
+.task-card .task-actions {
+  display: flex;
+  gap: 4px;
+}
+
+.task-card .complete-btn,
+.task-card .delete-btn {
+  background-color: #c0c0c0;
+  border: 1px solid #000;
+  font-size: 12px;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+
+.task-card .complete-btn:hover,
+.task-card .delete-btn:hover {
+  background-color: #a0a0a0;
+}
+
+
+
+.clock {
+  font-size: 24px; /* 电子时钟字号 */
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.location,
+.ip-address {
+  font-size: 12px; /* 地点和 IP 字号 */
+  text-align: center;
+}
