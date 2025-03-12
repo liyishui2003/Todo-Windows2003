@@ -1,0 +1,6 @@
+JWT_SECRET: "eat-pray-love-0120" # JWT 密钥
+DB_USER: "root"                  # 数据库用户名
+DB_PASSWORD: "010101"            # 数据库密码
+DB_HOST: "localhost"              # 数据库主机
+DB_PORT: "3306"                  # 数据库端口
+DB_NAME: "todolist"              # 数据库名称

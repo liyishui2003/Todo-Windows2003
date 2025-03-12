@@ -1,0 +1,12 @@
+# air.toml
+root = "."  # 项目根目录
+tmp_dir = "tmp"  # 临时目录，用于存放生成的可执行文件
+
+[build]
+cmd = "go build -o ./tmp/main.exe ./cmd/main.go"  # 构建命令，指定入口文件
+bin = "tmp/main.exe"  # 生成的可执行文件路径
+include_ext = ["go"]  # 监听的文件扩展名
+exclude_dir = ["tmp", "vendor", "testdata"]  # 排除的目录
+
+[log]
+color = true

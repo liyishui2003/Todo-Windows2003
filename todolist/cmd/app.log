@@ -1,0 +1,10 @@
+{"level":"panic","ts":1741438224.3565578,"msg":"这是一条 panic 日志"}
+{"level":"panic","ts":1741438644.9312236,"msg":"捕获到 panic","panic":"这是一个 panic"}
+{"level":"panic","ts":1741438647.2556233,"msg":"捕获到 panic","panic":"这是一个 傻瓜"}
+{"level":"panic","ts":1741527464.6604376,"msg":"捕获到 panic","panic":"wildcards must be named with a non-empty name in path '/users/:'"}
+{"level":"panic","ts":1741527476.1791847,"msg":"捕获到 panic","panic":"wildcards must be named with a non-empty name in path '/users/:'"}
+{"level":"panic","ts":1741527477.8881693,"msg":"捕获到 panic","panic":"wildcards must be named with a non-empty name in path '/users/:'"}
+{"level":"panic","ts":1741527480.2742958,"msg":"捕获到 panic","panic":"wildcards must be named with a non-empty name in path '/users/:'"}
+{"level":"panic","ts":1741527483.1290703,"msg":"捕获到 panic","panic":"wildcards must be named with a non-empty name in path '/users/:'"}
+{"level":"panic","ts":1741527484.0597258,"msg":"捕获到 panic","panic":"wildcards must be named with a non-empty name in path '/users/:'"}
+{"level":"panic","ts":1741527485.308203,"msg":"捕获到 panic","panic":"wildcards must be named with a non-empty name in path '/users/:'"}
